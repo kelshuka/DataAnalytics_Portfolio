@@ -149,6 +149,12 @@ main{
     /* height: 100%; */
 }
 
+#areas .cards{
+    
+    border-left-color: lemonchiffon;
+    text-align: center;
+}
+
 .cards .mImg{
     width: 100%;
     height: auto;
@@ -220,6 +226,9 @@ main{
         grid-template-columns: repeat(3, minmax(200px, 3fr));
         row-gap: 10px;
     }
+    .skillList{
+        gap: 5px;
+    }
 }
 
 @media (max-width: 800px){
@@ -247,11 +256,19 @@ main{
         row-gap: 10px;
         
     }
+    .skillList{
+        gap: 5px;
+    }
     .contacts{
         padding: 10px 20px;
     }
 }
 
+@media (max-width: 600px){
+    .skillList{
+        gap: 2px;
+    }
+}
 
 
 footer {
